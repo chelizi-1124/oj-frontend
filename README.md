@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+## 根据后台生成代码
+
+```shell
+openapi --input http://localhost:8121/api/v2/api-docs --output ./generated --client axios
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
